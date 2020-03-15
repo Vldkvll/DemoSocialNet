@@ -1,33 +1,33 @@
 {
   "files": {
     "main.css": "/DemoSocialNet/static/css/main.e8a88e6f.chunk.css",
-    "main.js": "/DemoSocialNet/static/js/main.07789cc4.chunk.js",
-    "main.js.map": "/DemoSocialNet/static/js/main.07789cc4.chunk.js.map",
-    "runtime-main.js": "/DemoSocialNet/static/js/runtime-main.4f8d1dc2.js",
-    "runtime-main.js.map": "/DemoSocialNet/static/js/runtime-main.4f8d1dc2.js.map",
-    "static/js/2.a329463e.chunk.js": "/DemoSocialNet/static/js/2.a329463e.chunk.js",
-    "static/js/2.a329463e.chunk.js.map": "/DemoSocialNet/static/js/2.a329463e.chunk.js.map",
+    "main.js": "/DemoSocialNet/static/js/main.33e6a2b8.chunk.js",
+    "main.js.map": "/DemoSocialNet/static/js/main.33e6a2b8.chunk.js.map",
+    "runtime-main.js": "/DemoSocialNet/static/js/runtime-main.0490e748.js",
+    "runtime-main.js.map": "/DemoSocialNet/static/js/runtime-main.0490e748.js.map",
+    "static/js/2.1a06c7e8.chunk.js": "/DemoSocialNet/static/js/2.1a06c7e8.chunk.js",
+    "static/js/2.1a06c7e8.chunk.js.map": "/DemoSocialNet/static/js/2.1a06c7e8.chunk.js.map",
     "static/css/3.a833427c.chunk.css": "/DemoSocialNet/static/css/3.a833427c.chunk.css",
     "static/js/3.a2d545d5.chunk.js": "/DemoSocialNet/static/js/3.a2d545d5.chunk.js",
     "static/js/3.a2d545d5.chunk.js.map": "/DemoSocialNet/static/js/3.a2d545d5.chunk.js.map",
     "static/css/4.52694e22.chunk.css": "/DemoSocialNet/static/css/4.52694e22.chunk.css",
-    "static/js/4.1c1efdd1.chunk.js": "/DemoSocialNet/static/js/4.1c1efdd1.chunk.js",
-    "static/js/4.1c1efdd1.chunk.js.map": "/DemoSocialNet/static/js/4.1c1efdd1.chunk.js.map",
+    "static/js/4.e7ad74ff.chunk.js": "/DemoSocialNet/static/js/4.e7ad74ff.chunk.js",
+    "static/js/4.e7ad74ff.chunk.js.map": "/DemoSocialNet/static/js/4.e7ad74ff.chunk.js.map",
     "index.html": "/DemoSocialNet/index.html",
-    "precache-manifest.0a80a74a8b90b3351b675dc6486de7b5.js": "/DemoSocialNet/precache-manifest.0a80a74a8b90b3351b675dc6486de7b5.js",
+    "precache-manifest.15ae679e53364fb1623030f69f6c1201.js": "/DemoSocialNet/precache-manifest.15ae679e53364fb1623030f69f6c1201.js",
     "service-worker.js": "/DemoSocialNet/service-worker.js",
     "static/css/3.a833427c.chunk.css.map": "/DemoSocialNet/static/css/3.a833427c.chunk.css.map",
     "static/css/4.52694e22.chunk.css.map": "/DemoSocialNet/static/css/4.52694e22.chunk.css.map",
     "static/css/main.e8a88e6f.chunk.css.map": "/DemoSocialNet/static/css/main.e8a88e6f.chunk.css.map",
-    "static/js/2.a329463e.chunk.js.LICENSE.txt": "/DemoSocialNet/static/js/2.a329463e.chunk.js.LICENSE.txt",
+    "static/js/2.1a06c7e8.chunk.js.LICENSE.txt": "/DemoSocialNet/static/js/2.1a06c7e8.chunk.js.LICENSE.txt",
     "static/media/DoubleRingPreloader_64px.svg": "/DemoSocialNet/static/media/DoubleRingPreloader_64px.27a0f3e3.svg",
     "static/media/avaIndianGirl.jpg": "/DemoSocialNet/static/media/avaIndianGirl.65fc0317.jpg",
     "static/media/user-reducer-object-state-helper": "/DemoSocialNet/static/media/user-reducer-object-state-helper.854af2e4.bin"
   },
   "entrypoints": [
-    "static/js/runtime-main.4f8d1dc2.js",
-    "static/js/2.a329463e.chunk.js",
+    "static/js/runtime-main.0490e748.js",
+    "static/js/2.1a06c7e8.chunk.js",
     "static/css/main.e8a88e6f.chunk.css",
-    "static/js/main.07789cc4.chunk.js"
+    "static/js/main.33e6a2b8.chunk.js"
   ]
 }

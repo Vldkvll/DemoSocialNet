@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "576590e73cd7a5c47d036bd841f957dc",
+    "revision": "484404b6fdc7857ea2d7a6a9e3f8ee51",
     "url": "/DemoSocialNet/index.html"
   },
   {
@@ -8,36 +8,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DemoSocialNet/static/css/3.a833427c.chunk.css"
   },
   {
-    "revision": "12c8d7d85d17fe4cbd2d",
+    "revision": "2629588787b2566b3f51",
     "url": "/DemoSocialNet/static/css/4.52694e22.chunk.css"
   },
   {
-    "revision": "b6360ba72cd8cec66f1d",
+    "revision": "d6d5e6622f3811306e0c",
     "url": "/DemoSocialNet/static/css/main.e8a88e6f.chunk.css"
   },
   {
-    "revision": "56cef2e73990cd78f231",
-    "url": "/DemoSocialNet/static/js/2.a329463e.chunk.js"
+    "revision": "50a07822fd27446dbd88",
+    "url": "/DemoSocialNet/static/js/2.1a06c7e8.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/DemoSocialNet/static/js/2.a329463e.chunk.js.LICENSE.txt"
+    "url": "/DemoSocialNet/static/js/2.1a06c7e8.chunk.js.LICENSE.txt"
   },
   {
     "revision": "cbb7db75adf2e41dd69a",
     "url": "/DemoSocialNet/static/js/3.a2d545d5.chunk.js"
   },
   {
-    "revision": "12c8d7d85d17fe4cbd2d",
-    "url": "/DemoSocialNet/static/js/4.1c1efdd1.chunk.js"
+    "revision": "2629588787b2566b3f51",
+    "url": "/DemoSocialNet/static/js/4.e7ad74ff.chunk.js"
   },
   {
-    "revision": "b6360ba72cd8cec66f1d",
-    "url": "/DemoSocialNet/static/js/main.07789cc4.chunk.js"
+    "revision": "d6d5e6622f3811306e0c",
+    "url": "/DemoSocialNet/static/js/main.33e6a2b8.chunk.js"
   },
   {
-    "revision": "147169c2a1e69f6e6dc1",
-    "url": "/DemoSocialNet/static/js/runtime-main.4f8d1dc2.js"
+    "revision": "8ef30c23459a26c3ce4a",
+    "url": "/DemoSocialNet/static/js/runtime-main.0490e748.js"
   },
   {
     "revision": "27a0f3e301780446c2923cadba348dc5",
