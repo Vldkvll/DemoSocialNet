@@ -1,0 +1,20 @@
+.users{
+    /*width: 100%;*/
+}
+
+.imgUsers{
+    display: block;
+    width: 80px;
+    border-radius: 50%;
+}
+.imgUsers img{
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.preloader {
+    width: 100px;
+}
+
+

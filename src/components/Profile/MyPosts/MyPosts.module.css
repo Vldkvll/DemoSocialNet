@@ -1,0 +1,20 @@
+.post {
+    margin-top: 10px;
+}
+
+.textareaButtons {
+    padding: 10px;
+}
+
+.textareaButtons .buttons {
+    display: block;
+    margin-right: 2px;
+}
+
+.item {
+    color: lavender;
+}
+
+.item img {
+    width: 50px;
+}

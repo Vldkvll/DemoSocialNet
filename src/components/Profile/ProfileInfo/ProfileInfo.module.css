@@ -1,0 +1,35 @@
+
+.item{
+
+}
+.ava {
+    display: inline-block;
+    /* height: 50px; */
+    width: 200px;
+    margin-right: 30px;
+}
+
+.ava img {
+    width: 100%;
+}
+
+.profile {
+    display: inline-block;
+    padding-top: 10px;
+    vertical-align: top;
+    /* height: 5; */
+    width: 50%;
+    color: floralwhite;
+    /* text-align: center; */
+}
+
+
+
+.profileStatus {
+     display: inline-block;
+     /*margin: 0 auto;*/
+     /* height: 5; */
+     width: 50%;
+     color: floralwhite;
+     /* text-align: center; */
+ }
