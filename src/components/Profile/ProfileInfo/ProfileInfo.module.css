@@ -1,6 +1,8 @@
 
 .item{
-
+    display: grid;
+    grid-template-areas: "pht prf cnt " ;
+    grid-template-columns: 3fr 4fr 5fr ;
 }
 .ava {
     display: inline-block;
@@ -11,25 +13,73 @@
 
 .ava img {
     width: 100%;
+    grid-area: pht;
+    background-color: beige;
 }
 
 .profile {
-    display: inline-block;
-    padding-top: 10px;
-    vertical-align: top;
+    grid-area: prf;
+    padding: 5px;
+    /*vertical-align: top;*/
     /* height: 5; */
-    width: 50%;
+    /*width: 50%;*/
     color: floralwhite;
     /* text-align: center; */
 }
+.profileB {
+    font-size: larger;
+    color: black;
+    text-shadow: 1px 1px 5px midnightblue;
+}
 
+.contacts{
+    grid-area: cnt;
+    padding: 5px;
+    /*vertical-align: top;*/
+    /* height: 5; */
+    /*width: 50%;*/
+    color: floralwhite;
+}
 
+.contactsB {
+    padding-left: .5rem;
+}
+
+.contactTitle{
+    color: #69241a;
+
+}
 
 .profileStatus {
-     display: inline-block;
+     display: inline;
      /*margin: 0 auto;*/
      /* height: 5; */
      width: 50%;
-     color: floralwhite;
+    /*background-color: darkred;*/
+    font-weight: bold;
+
+    text-shadow: 2px 2px 4px midnightblue;
+    cursor: pointer;
+
      /* text-align: center; */
  }
+
+.profileStatusSpan{
+    color: #0f0a2b;
+}
+
+.buttonMod{
+    margin-top: 5px;
+}
+
+.labelInputImg {
+
+}
+
+.formSummaryError{
+    display: inline-block;
+    border: solid red 1px;
+    padding: 5px;
+    font-weight: bold;
+    color: deeppink;
+}

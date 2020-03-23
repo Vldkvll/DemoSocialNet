@@ -1,10 +1,12 @@
 import {ProfileAPI, UserAPI} from "../API/api";
+import {stopSubmit} from "redux-form";
 
-const ADD_POST = "4-buddy.net/profile/ADD-POST";
-const DELETE_POST = "4-buddy.net/profile/DELETE-POST";
-const UPDATE_NEW_POST_TEXT = "4-buddy.net/profile/UPDATE-NEW-POST-TEXT";
-const SET_USER_PROFILE = "4-buddy.net/profile/SET-USER-PROFILE";
-const SET_STATUS = "4-buddy.net/profile/SET-STATUS";
+const ADD_POST = "4-BUDDY.NET/PROFILE/ADD-POST";
+const DELETE_POST = "4-BUDDY.NET/PROFILE/DELETE-POST";
+const UPDATE_NEW_POST_TEXT = "4-BUDDY.NET/PROFILE/UPDATE-NEW-POST-TEXT";
+const SET_USER_PROFILE = "4-BUDDY.NET/PROFILE/SET-USER-PROFILE";
+const SET_STATUS = "4-BUDDY.NET/PROFILE/SET-STATUS";
+const SET_PHOTO = "4-BUDDY.NET/PROFILE/SET-PHOTO";
 
 let initialState = {
     postData: [
@@ -15,7 +17,6 @@ let initialState = {
         {id: 4, messenger: "Handsome buddy!", likesCount: " 121"},
         {id: 5, messenger: "U 'r  brilliant person, too!", likesCount: " 23"},
     ],
-    newPostText: "I'm the great!",
     profile: null,
     status: "",
 };
@@ -63,6 +64,13 @@ const profileReducer = (state = initialState, action) => {
             };
         }
 
+        case SET_PHOTO: {
+            return {
+                ...state,
+                profile: {...state.profile, photos: action.photos},
+            };
+        }
+
         default:
             return state;
     }
@@ -73,6 +81,8 @@ export const deletePostActionCreator = (id) => ({type: DELETE_POST, id});
 export const updateNewPostTextActionCreator = (newText) => ({type: UPDATE_NEW_POST_TEXT, newText: newText});
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile});
 export const setStatus = (status) => ({type: SET_STATUS, status});
+export const setPhotosSuccess = (photos) => ({type: SET_PHOTO, photos});
+
 
 // Thunk component
 export const getUserProfile = (userId) => {
@@ -96,6 +106,28 @@ export const updateStatus = (status) => {
             dispatch(setStatus(status));
         }
     });
+};
+
+export const savePhoto = (file) => {
+    return async (dispatch) => {
+        const response = await ProfileAPI.savePhoto(file);
+        if (response.data.resultCode === 0) {
+            dispatch(setPhotosSuccess(response.data.data.photos));
+        }
+    }
+};
+
+export const saveProfile = (profile) => {
+    return async (dispatch, getState ) => {
+        const userId = getState().auth.usersId
+        const response = await ProfileAPI.saveProfileOnServer(profile);
+        if (response.data.resultCode === 0) {
+            dispatch(getUserProfile(userId));
+        } else {
+            dispatch(stopSubmit("edit-profile", {_error: response.data.messages[0]}))
+            return Promise.reject(response.data.messages[0]);
+        }
+    }
 };
 
 export default profileReducer;
